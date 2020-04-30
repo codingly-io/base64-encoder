@@ -1,1 +1,27 @@
-GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codingly Base64 Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Base64 Encoder</h2>
+  <p>
+    <h2>Choose a file...</h2>
+    <input type="file" id="input" />
+  </p>
+  <p>
+    <button class="btn-convert">Encode Base64</button>
+  </p>
+  <hr/>
+  <p class="result-container" style="display: none;">
+    Base64 copied to clipboard!
+    <br/><br/>
+    <textarea type="text" id="base64"></textarea>
+  </p>
+  <script src="index.js"></script>
+</body>
+</html>
