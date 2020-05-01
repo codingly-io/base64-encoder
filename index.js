@@ -20,7 +20,7 @@ function copyToClipboard(text) {
   container.style.display = 'block';
   textarea.value = text;
   textarea.select();
-  textarea.setSelectionRange(0, 99999);
+  textarea.setSelectionRange(0, text.length);
   document.execCommand('copy');
 }
 
